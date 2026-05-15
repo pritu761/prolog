@@ -1,6 +1,6 @@
 fib(0,0).
 fib(1,1).
-fib(N<F):-
+fib(N,F):-
 N>1,
 N1 is N - 1,
 N2 is N - 2,
